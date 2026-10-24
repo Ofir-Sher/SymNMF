@@ -1,0 +1,30 @@
+# ----------------------------------
+# C & C-API Compilation Artifacts
+# ----------------------------------
+*.o
+*.so
+*.pyd
+symnmf  # (If you compile a standalone C executable, ignore it)
+
+# ----------------------------------
+# Python Caches & Artifacts
+# ----------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+
+# ----------------------------------
+# Data & Test Output (Optional)
+# ----------------------------------
+*.csv   # (Remove this line if you want to upload sample datasets)
+*.txt   # (Remove if you have text-based test inputs you want to share)
+
+# ----------------------------------
+# OS & Editor Files
+# ----------------------------------
+.vscode/
+.idea/
+.DS_Store
